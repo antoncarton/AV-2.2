@@ -22,7 +22,7 @@ class MobileBankApiTestV2 {
           .statusCode(200)
           // .header("Content-Type", "application/json; charset=UTF-8")
           // специализированные проверки - лучше
-              .body("[0].currency",equalTo("RUB"))
+              .body("[0].currency",equalTo("RUR"))
       ;
     }
 }
